@@ -23,7 +23,7 @@ class _HomeState extends State<Home> {
                 height: MediaQuery.of(context).size.height,
                 width: 200,
                 child: NavigationDrawer(
-                    surfaceTintColor: Colors.transparent,
+                    surfaceTintColor: Colors.white,
                     selectedIndex: _selectedIndex,
                     backgroundColor: Colors.white,
                     indicatorColor: const Color.fromRGBO(55, 124, 246, 1),

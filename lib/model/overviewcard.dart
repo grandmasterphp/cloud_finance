@@ -22,7 +22,7 @@ class OverviewCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       elevation: 1,
-      surfaceTintColor: Colors.transparent,
+      color: Colors.white,
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 10.0, vertical: 15),
         child: Column(
@@ -35,11 +35,12 @@ class OverviewCard extends StatelessWidget {
                       child: Icon(
                     icon,
                     size: 16,
-                    color: Colors.grey,
+                    color: const Color.fromARGB(255, 45, 44, 44),
                   )),
                   TextSpan(text: title)
                 ]),
-                style: const TextStyle(fontSize: 14, color: Colors.grey),
+                style: const TextStyle(
+                    fontSize: 14, color: Color.fromARGB(255, 45, 44, 44)),
               ),
             ]),
             const SizedBox(
@@ -101,6 +102,7 @@ class OverviewCard extends StatelessWidget {
                 Text(
                   monthEndComparison,
                   style: const TextStyle(
+                      fontSize: 12,
                       color: Color.fromARGB(255, 4, 125, 8),
                       fontWeight: FontWeight.bold),
                 ),

@@ -12,8 +12,8 @@ void main() {
           overlayShape: SliderComponentShape.noThumb,
         ),
         useMaterial3: true,
-        colorScheme: const ColorScheme.light(
-            background: Color.fromRGBO(246, 246, 248, 1))),
+        colorScheme:
+            const ColorScheme.light(surface: Color.fromRGBO(248, 248, 248, 1))),
     debugShowCheckedModeBanner: false,
     home: const Home(),
   ));

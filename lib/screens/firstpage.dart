@@ -90,7 +90,7 @@ class FirstPage extends StatelessWidget {
                     Flexible(
                         flex: 3,
                         child: Card(
-                          surfaceTintColor: Colors.transparent,
+                          color: Colors.white,
                           child: Padding(
                             padding: const EdgeInsets.all(10.0),
                             child: Column(
@@ -186,7 +186,7 @@ class FirstPage extends StatelessWidget {
                         child: SizedBox(
                           height: 370,
                           child: Card(
-                              surfaceTintColor: Colors.transparent,
+                              color: Colors.white,
                               child: SizedBox(child: TotalSavings())),
                         ))
                   ],
@@ -200,7 +200,7 @@ class FirstPage extends StatelessWidget {
                     Flexible(
                         flex: 6,
                         child: Card(
-                          surfaceTintColor: Colors.transparent,
+                          color: Colors.white,
                           child: TransactionHistory(),
                         )),
                   ],

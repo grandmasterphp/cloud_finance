@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 PreferredSizeWidget appBarr = AppBar(
   elevation: 1,
   shadowColor: const Color.fromARGB(255, 216, 214, 214),
-  surfaceTintColor: Colors.transparent,
+  surfaceTintColor: Colors.white,
   backgroundColor: Colors.white,
   title: const Text(
     'Dashboard',
