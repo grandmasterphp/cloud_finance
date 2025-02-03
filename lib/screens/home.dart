@@ -30,7 +30,7 @@ class _HomeState extends State<Home> {
                     elevation: 1,
                     children: [
                       const SizedBox(
-                        height: 56,
+                        height: 56.5,
                         child: DrawerHeader(
                             margin: EdgeInsets.zero,
                             padding: EdgeInsets.symmetric(
