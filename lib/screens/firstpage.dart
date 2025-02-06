@@ -1,3 +1,4 @@
+import 'package:cloudfinance/constants/footer.dart';
 import 'package:cloudfinance/model/appbar.dart';
 import 'package:cloudfinance/model/barchart.dart';
 import 'package:cloudfinance/model/overviewcard.dart';
@@ -204,7 +205,9 @@ class FirstPage extends StatelessWidget {
                           child: TransactionHistory(),
                         )),
                   ],
-                )
+                ),
+
+                const Footer()
               ],
             ),
           ),
